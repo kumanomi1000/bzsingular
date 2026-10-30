@@ -3,8 +3,8 @@
 3次ベジェ曲線の特異点の例：<br>
 Examples of singular points on a cubic Bézier curve:
 <table>
-<tr><td>自己交差<br>Self-intersection</td><td>カスプ（尖点）<br>Cusp</td><td>変曲点<br>Inflection points</td></tr>
-<tr><td><img width="200" src="img/intersection.png"></td><td><img width="200" src="img/cusp.png"></td><td><img width="200" src="img/inflection.png"></td></tr>
+<tr><td>変曲点<br>Inflection points</td><td>カスプ（尖点）<br>Cusp</td><td>自己交差<br>Self-intersection</td></tr>
+<tr><td><img width="200" src="img/inflection.png"></td><td><img width="200" src="img/cusp.png"></td><td><img width="200" src="img/intersection.png"></td></tr>
 </table>
 
 - bzsingular.cpp<br>実装例ソースコード<br>Implementation example
