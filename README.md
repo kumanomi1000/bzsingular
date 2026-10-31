@@ -7,6 +7,12 @@ Examples of singular points on a cubic Bézier curve:
 <tr><td><img width="200" src="img/inflection.png"></td><td><img width="200" src="img/cusp.png"></td><td><img width="200" src="img/intersection.png"></td></tr>
 </table>
 
+以下の記事に掲載した、3次ベジェ曲線の特異点（変曲点、カスプ、自己交差）を検出して描画するサンプルアプリです。<br>
+This is a sample application that detects and renders the singularities (inflection points, cusps, and self-intersections) of cubic Bézier curves, as featured in the post below.
+
+[Qiita - 3次ベジェ曲線の特異点の解析的導出](https://qiita.com/kumanomi1000/items/4ba97d0b24ce06f4fb1d)<br>
+[Qiita - Analytic Derivation of Singularities in Cubic Bézier Curves](https://qiita.com/kumanomi1000/items/7621db2d05b87884d49d)
+
 - bzsingular.cpp<br>実装例ソースコード<br>Implementation example
 - bzsingular.pro main.cpp, mainwindow.h, mainwindow.cpp, mainwindow.ui<br>Qtサンプルアプリ<br>起動するとカスプを含む3次ベジェ曲線と、カスプ点が水色で表示される。<br>制御点をドラッグして移動すると曲線が更新され特異点が再検出される。自己交差があれば赤色、変曲点があれば緑色で表示される。<br>Qt Sample Application<br>When you start the program, a cubic Bézier curve and a cusp point (cyan) will be displayed.<br>Dragging and moving the control points will update the curve and detect singular points. A self-intersection point (red) and inflection points (green) will be displayed when they are existing.
 - bzsingular.zip<br>Windows 11上のQt 6.9.1 + MSVC2022 64bitでビルドした実行ファイル。Qtランタイムライブラリが必要。<br>Executable built on Windows 11 using Qt 6.9.1 and MSVC2022 64-bit. Requires Qt runtime libraries.
