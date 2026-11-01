@@ -18,7 +18,9 @@ Examples of singular points on a cubic Bézier curve:
 <tr><td>変曲点<br>Inflection points</td><td>カスプ（尖点）<br>Cusp</td><td>自己交差<br>Self-intersection</td></tr>
 <tr><td><img width="200" src="img/inflection.png"></td><td><img width="200" src="img/cusp.png"></td><td><img width="200" src="img/intersection.png"></td></tr>
 </table>
+
 ==========<br>
+
 3次ベジェ曲線上の任意の点の座標を；<br>
 Let the coordinates of an arbitrary point on a cubic Bézier curve be:
 ```math
