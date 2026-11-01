@@ -1,11 +1,5 @@
-# bzsingular<br>3次ベジェ曲線の特異点の解析的導出<br>Analytic Derivation of Singularities in Cubic Bézier Curves
-
-3次ベジェ曲線の特異点の例：<br>
-Examples of singular points on a cubic Bézier curve:
-<table>
-<tr><td>変曲点<br>Inflection points</td><td>カスプ（尖点）<br>Cusp</td><td>自己交差<br>Self-intersection</td></tr>
-<tr><td><img width="200" src="img/inflection.png"></td><td><img width="200" src="img/cusp.png"></td><td><img width="200" src="img/intersection.png"></td></tr>
-</table>
+# bzsingular
+3次ベジェ曲線の特異点の解析的導出<br>Analytic Derivation of Singularities in Cubic Bézier Curves
 
 以下の記事に掲載した、3次ベジェ曲線の特異点（変曲点、カスプ、自己交差）を検出して描画するサンプルアプリです。<br>
 This is a sample application that detects and renders the singularities (inflection points, cusps, and self-intersections) of cubic Bézier curves, as featured in the post below.
@@ -18,8 +12,13 @@ This is a sample application that detects and renders the singularities (inflect
 - bzsingular.zip<br>Windows 11上のQt 6.9.1 + MSVC2022 64bitでビルドした実行ファイル。Qtランタイムライブラリが必要。<br>Executable built on Windows 11 using Qt 6.9.1 and MSVC2022 64-bit. Requires Qt runtime libraries.
 - paper_j.pdf, paper_e.pdf<br>論文pdf / article pdf
 
-==========
-
+3次ベジェ曲線の特異点の例：<br>
+Examples of singular points on a cubic Bézier curve:
+<table>
+<tr><td>変曲点<br>Inflection points</td><td>カスプ（尖点）<br>Cusp</td><td>自己交差<br>Self-intersection</td></tr>
+<tr><td><img width="200" src="img/inflection.png"></td><td><img width="200" src="img/cusp.png"></td><td><img width="200" src="img/intersection.png"></td></tr>
+</table>
+==========<br>
 3次ベジェ曲線上の任意の点の座標を；<br>
 Let the coordinates of an arbitrary point on a cubic Bézier curve be:
 ```math
